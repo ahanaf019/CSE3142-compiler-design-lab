@@ -10,7 +10,7 @@ int main()
 {
     string str = "0.1001";
 
-    // cin>>str;
+    cin>>str;
 
     if(floatVar(str))
     cout<<"Float Variable"<<endl;
