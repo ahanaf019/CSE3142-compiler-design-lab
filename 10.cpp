@@ -11,7 +11,7 @@ map<string, string>prods;
 
 int main()
 {
-    string str = "((x+x)*(x-x))/";
+    string str = "((x+x)/(x-x))";
     
     prods["E+E"] = "E";
     prods["E-E"] = "E";
