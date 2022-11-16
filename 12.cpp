@@ -22,13 +22,13 @@ int main()
     productions["(E)"] = "E";
     productions["X"] = "E";
 
-    string str = "22*(69+((b-atc))";
+    string str = "22*(69+((b-atc)))";
 
     // cout<<integer("69")<<endl;
     // cout<<identifier("")<<endl;
 
-    // parse(str);
     analyze_identifier(str);
+    // parse(str);
 
 
     return 0;
@@ -175,7 +175,6 @@ string reverse_str(string str)
     {
         res = res + str[i];
     }
-
     return res;
 }
 

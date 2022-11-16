@@ -1,0 +1,11 @@
+5
+E Q T R F
+8
+E TQ
+Q +TQ
+Q #
+T FR
+R *FR
+R #
+F (E)
+F x
